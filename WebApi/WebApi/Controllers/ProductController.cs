@@ -67,7 +67,7 @@ namespace WebApi.Controllers
             }
             catch(Exception ex)
             {
-                _logger.LogCritical($"查找Id为{id}的产品时出现了错误!!", ex) ;
+                _logger.LogCritical($"查找Id为{id}的产品时出现了错误!!!", ex) ;
                 return StatusCode(500, "处理请求的时候发生了错误！");
             }
         }
