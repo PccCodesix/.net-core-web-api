@@ -59,6 +59,7 @@ namespace WebApi.Controllers
                 var product = ProductService.Current.Products.SingleOrDefault(x => x.Id == id);
                 if (product == null)
                 {
+
                     _logger.LogInformation($"Id为{id}的产品没有被找到..");
                     _mailService.Send("Product Deleted", $"Id为{id}的产品被删除了");
                     return NotFound();
