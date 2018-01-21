@@ -1,0 +1,12 @@
+D:\E\NetcoreProgram\webapi\.net-core-web-api\WebApi\WebApi\bin\Debug\netcoreapp2.0\WebApi.deps.json
+D:\E\NetcoreProgram\webapi\.net-core-web-api\WebApi\WebApi\bin\Debug\netcoreapp2.0\WebApi.runtimeconfig.json
+D:\E\NetcoreProgram\webapi\.net-core-web-api\WebApi\WebApi\bin\Debug\netcoreapp2.0\WebApi.runtimeconfig.dev.json
+D:\E\NetcoreProgram\webapi\.net-core-web-api\WebApi\WebApi\bin\Debug\netcoreapp2.0\WebApi.dll
+D:\E\NetcoreProgram\webapi\.net-core-web-api\WebApi\WebApi\obj\Debug\netcoreapp2.0\WebApi.csproj.CoreCompileInputs.cache
+D:\E\NetcoreProgram\webapi\.net-core-web-api\WebApi\WebApi\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfoInputs.cache
+D:\E\NetcoreProgram\webapi\.net-core-web-api\WebApi\WebApi\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfo.cs
+D:\E\NetcoreProgram\webapi\.net-core-web-api\WebApi\WebApi\bin\Debug\netcoreapp2.0\WebApi.pdb
+D:\E\NetcoreProgram\webapi\.net-core-web-api\WebApi\WebApi\obj\Debug\netcoreapp2.0\WebApi.dll
+D:\E\NetcoreProgram\webapi\.net-core-web-api\WebApi\WebApi\obj\Debug\netcoreapp2.0\WebApi.pdb
+D:\E\NetcoreProgram\webapi\.net-core-web-api\WebApi\WebApi\obj\Debug\netcoreapp2.0\WebApi.csprojResolveAssemblyReference.cache
+D:\E\NetcoreProgram\webapi\.net-core-web-api\WebApi\WebApi\bin\Debug\netcoreapp2.0\nlog.config

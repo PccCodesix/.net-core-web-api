@@ -1,0 +1,78 @@
+2018-01-21 23:08:08.3859|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/  
+2018-01-21 23:08:08.5936|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 234.3181ms 404 text/plain
+2018-01-21 23:08:12.3339|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/22  
+2018-01-21 23:08:12.5195|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments (22) - ModelState is Valid
+2018-01-21 23:08:16.6297|INFO|WebApi.Controllers.ProductController|Id为22的产品没有被找到..
+2018-01-21 23:08:17.9507|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-01-21 23:08:18.0525|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 5632.3486ms
+2018-01-21 23:08:18.0814|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5731.6326ms 404 text/plain
+2018-01-21 23:35:58.2487|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/  
+2018-01-21 23:35:58.5680|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 369.6661ms 404 text/plain
+2018-01-21 23:36:24.7618|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Delete/1  
+2018-01-21 23:36:24.7923|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.6563ms 404 text/plain
+2018-01-21 23:37:24.4571|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/GetProduct/22  
+2018-01-21 23:37:24.4824|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.7444ms 404 text/plain
+2018-01-21 23:37:46.4304|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/Delete/1  
+2018-01-21 23:37:46.4476|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.3491ms 404 text/plain
+2018-01-21 23:38:14.0571|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Delete/1  
+2018-01-21 23:38:14.0904|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/GetProduct/22  
+2018-01-21 23:38:14.1360|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/Delete/1  
+2018-01-21 23:38:14.1531|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 191.6892ms 404 text/plain
+2018-01-21 23:38:14.1643|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 128.7531ms 404 text/plain
+2018-01-21 23:38:14.2098|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 142.9767ms 404 text/plain
+2018-01-21 23:38:14.2098|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/  
+2018-01-21 23:38:14.2242|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 328.9941ms 404 text/plain
+2018-01-21 23:39:12.0135|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/22  
+2018-01-21 23:39:12.2000|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments (22) - ModelState is Valid
+2018-01-21 23:39:18.0804|INFO|WebApi.Controllers.ProductController|Id为22的产品没有被找到..
+2018-01-21 23:39:19.5032|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-01-21 23:39:19.5343|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 7415.008ms
+2018-01-21 23:39:19.5616|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7556.3675ms 404 text/plain
+2018-01-21 23:39:51.4139|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/Delete  
+2018-01-21 23:39:51.5235|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments (0) - ModelState is Invalid
+2018-01-21 23:39:59.6839|INFO|WebApi.Controllers.ProductController|Id为0的产品没有被找到..
+2018-01-21 23:39:59.6981|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-01-21 23:39:59.7224|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 8281.722ms
+2018-01-21 23:39:59.7755|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8319.6001ms 404 text/plain
+2018-01-21 23:40:06.9663|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/Delete/1  
+2018-01-21 23:40:07.0831|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.6172ms 404 text/plain
+2018-01-21 23:40:11.9139|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Delete/1  
+2018-01-21 23:40:12.0142|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.5673ms 404 text/plain
+2018-01-21 23:40:41.3281|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/  
+2018-01-21 23:40:41.5675|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 285.877ms 404 text/plain
+2018-01-21 23:40:48.1590|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/22  
+2018-01-21 23:40:48.3277|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments (22) - ModelState is Valid
+2018-01-21 23:40:51.1796|INFO|WebApi.Controllers.ProductController|Id为22的产品没有被找到..
+2018-01-21 23:40:59.2559|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-01-21 23:40:59.2656|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 11020.066ms
+2018-01-21 23:40:59.2656|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11128.5488ms 404 text/plain
+2018-01-21 23:42:21.9843|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/  
+2018-01-21 23:42:22.2979|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 384.926ms 404 text/plain
+2018-01-21 23:42:26.1777|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/22  
+2018-01-21 23:42:26.3410|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments (22) - ModelState is Valid
+2018-01-21 23:42:28.2302|INFO|WebApi.Controllers.ProductController|Id为22的产品没有被找到..
+2018-01-21 23:42:28.2424|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-01-21 23:42:28.2802|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 1986.5805ms
+2018-01-21 23:42:28.3043|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2122.4663ms 404 text/plain
+2018-01-21 23:42:45.2674|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/22  
+2018-01-21 23:42:45.2941|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments (22) - ModelState is Valid
+2018-01-21 23:42:48.6158|INFO|WebApi.Controllers.ProductController|Id为22的产品没有被找到..
+2018-01-21 23:43:39.7699|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-01-21 23:43:39.7699|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 54502.1292ms
+2018-01-21 23:43:39.7904|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54522.0709ms 404 text/plain
+2018-01-21 23:47:15.5442|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/  
+2018-01-21 23:47:15.8672|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 359.0175ms 404 text/plain
+2018-01-21 23:47:30.3827|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/22  
+2018-01-21 23:47:30.5650|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments (22) - ModelState is Valid
+2018-01-21 23:47:37.6271|INFO|WebApi.Controllers.ProductController|Id为22的产品没有被找到..
+2018-01-21 23:47:46.4330|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-01-21 23:47:46.4443|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 15977.9036ms
+2018-01-21 23:47:46.4722|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16068.0471ms 404 text/plain
+2018-01-21 23:48:31.0896|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/  
+2018-01-21 23:48:31.3890|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 347.6284ms 404 text/plain
+2018-01-21 23:48:32.2702|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/22  
+2018-01-21 23:48:32.4551|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments (22) - ModelState is Valid
+2018-01-21 23:48:35.3308|INFO|WebApi.Controllers.ProductController|Id为22的产品没有被找到..
+2018-01-21 23:48:57.4244|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-01-21 23:48:57.4244|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 25086.6834ms
+2018-01-21 23:48:57.4513|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25188.0195ms 404 text/plain
