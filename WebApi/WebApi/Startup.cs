@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using NLog.Extensions.Logging;
+using WebApi.Context;
 using WebApi.Services;
 
 namespace WebApi
@@ -52,10 +53,11 @@ namespace WebApi
 #else
             services.AddTransient<IMailService, CloudMailService>();
 #endif
+            services.AddDbContext<MyContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, MyContext mycontext)//
         {
             loggerFactory.AddNLog();
 
@@ -72,6 +74,7 @@ namespace WebApi
             //{
             //    await context.Response.WriteAsync("Hello World!");
             //});
+            mycontext.EnsureSeedDataForContext();
             app.UseStatusCodePages();// status code middleware like  (http code)
             app.UseMvc();
 
