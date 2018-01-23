@@ -1,0 +1,339 @@
+2018-01-23 20:54:49.1445|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM `ProductEntitys` AS `p`)
+    THEN TRUE ELSE FALSE
+END
+2018-01-23 20:54:49.3437|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'MyContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-01-23 20:54:49.3437|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 20:54:49.3437|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 20:54:49.3437|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2018-01-23 20:54:49.3437|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-01-23 20:55:01.4048|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM `ProductEntitys` AS `p`)
+    THEN TRUE ELSE FALSE
+END
+2018-01-23 20:55:01.5122|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'MyContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-01-23 20:55:01.5147|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 20:55:01.5147|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 20:55:01.5147|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2018-01-23 20:55:01.5147|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-01-23 20:55:01.5147|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 20:55:01.5147|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 20:55:01.5147|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2018-01-23 20:55:01.5294|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-01-23 21:20:01.7641|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM `ProductEntitys` AS `p`)
+    THEN TRUE ELSE FALSE
+END
+2018-01-23 21:20:02.3394|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/  
+2018-01-23 21:20:02.5666|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 234.6106ms 404 text/plain
+2018-01-23 21:20:22.9388|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product  
+2018-01-23 21:20:23.0168|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'MyContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-01-23 21:20:23.0316|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:20:23.0457|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:20:23.0705|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2018-01-23 21:20:23.0949|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-01-23 21:20:23.1865|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments ((null)) - ModelState is Valid
+2018-01-23 21:20:23.2206|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-01-23 21:20:23.3157|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 304.5589ms
+2018-01-23 21:20:23.3157|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 386.2224ms 200 application/json; charset=utf-8
+2018-01-23 21:21:57.1433|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM `ProductEntitys` AS `p`)
+    THEN TRUE ELSE FALSE
+END
+2018-01-23 21:21:57.5546|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/  
+2018-01-23 21:21:57.7011|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 152.2726ms 404 text/plain
+2018-01-23 21:22:03.3370|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product  
+2018-01-23 21:22:03.4107|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'MyContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-01-23 21:22:03.4107|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:22:03.4246|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:22:03.4504|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2018-01-23 21:22:03.4779|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-01-23 21:22:03.5943|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments ((null)) - ModelState is Valid
+2018-01-23 21:22:03.7491|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (126ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `x`.`Id`, `x`.`Description`, `x`.`Name`, `x`.`Price`
+FROM `ProductEntitys` AS `x`
+ORDER BY `x`.`Name`
+2018-01-23 21:22:03.8092|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-01-23 21:22:03.8915|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 470.3249ms
+2018-01-23 21:22:03.8915|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 560.6202ms 200 application/json; charset=utf-8
+2018-01-23 21:22:12.6501|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product  
+2018-01-23 21:22:12.6569|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'MyContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-01-23 21:22:12.6833|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:22:12.6906|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:22:12.7174|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2018-01-23 21:22:12.7435|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-01-23 21:22:12.7856|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments ((null)) - ModelState is Valid
+2018-01-23 21:22:20.1743|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `x`.`Id`, `x`.`Description`, `x`.`Name`, `x`.`Price`
+FROM `ProductEntitys` AS `x`
+ORDER BY `x`.`Name`
+2018-01-23 21:22:43.2553|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-01-23 21:22:43.2553|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 30605.5133ms
+2018-01-23 21:22:43.2953|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30634.4712ms 200 application/json; charset=utf-8
+2018-01-23 21:25:14.3862|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM `ProductEntitys` AS `p`)
+    THEN TRUE ELSE FALSE
+END
+2018-01-23 21:25:15.0377|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/  
+2018-01-23 21:25:15.1786|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 166.3756ms 404 text/plain
+2018-01-23 21:25:21.1911|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/7  
+2018-01-23 21:25:21.2719|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'MyContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-01-23 21:25:21.2874|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:25:21.3225|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:25:21.3517|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2018-01-23 21:25:21.3824|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-01-23 21:25:21.5082|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments (7, False) - ModelState is Valid
+2018-01-23 21:25:21.6137|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[@__get_Item_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`Description`, `e`.`Name`, `e`.`Price`
+FROM `ProductEntitys` AS `e`
+WHERE `e`.`Id` = @__get_Item_0
+LIMIT 1
+2018-01-23 21:25:21.6279|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-01-23 21:25:21.6595|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 371.1984ms
+2018-01-23 21:25:21.6595|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 490.9505ms 404 text/plain
+2018-01-23 21:25:33.0644|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/7  
+2018-01-23 21:25:33.0899|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'MyContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-01-23 21:25:33.0976|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:25:33.1253|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:25:33.1523|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2018-01-23 21:25:33.1573|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-01-23 21:25:33.2029|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments (7, False) - ModelState is Valid
+2018-01-23 21:25:35.7972|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`Description`, `e`.`Name`, `e`.`Price`
+FROM `ProductEntitys` AS `e`
+WHERE `e`.`Id` = @__get_Item_0
+LIMIT 1
+2018-01-23 21:26:16.3880|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-01-23 21:26:16.3880|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 43323.4233ms
+2018-01-23 21:26:16.4094|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 43363.829ms 404 text/plain
+2018-01-23 21:26:20.3284|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/1  
+2018-01-23 21:26:20.3284|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'MyContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-01-23 21:26:20.3672|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:26:20.3941|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:26:20.4216|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2018-01-23 21:26:20.4504|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-01-23 21:26:20.4947|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments (1, False) - ModelState is Valid
+2018-01-23 21:26:22.8510|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`Description`, `e`.`Name`, `e`.`Price`
+FROM `ProductEntitys` AS `e`
+WHERE `e`.`Id` = @__get_Item_0
+LIMIT 1
+2018-01-23 21:26:29.4540|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-01-23 21:26:31.3078|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 10973.0268ms
+2018-01-23 21:26:31.3214|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10990.9998ms 200 application/json; charset=utf-8
+2018-01-23 21:27:06.5702|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/1?includeMaterial=true  
+2018-01-23 21:27:06.5781|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'MyContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-01-23 21:27:06.6191|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:27:06.6468|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:27:06.6800|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2018-01-23 21:27:06.6856|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-01-23 21:27:06.7102|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments (1, True) - ModelState is Valid
+2018-01-23 21:27:12.2668|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__productId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT `x`.`Id`, `x`.`Description`, `x`.`Name`, `x`.`Price`
+FROM `ProductEntitys` AS `x`
+WHERE `x`.`Id` = @__productId_0
+ORDER BY `x`.`Id`
+LIMIT 1
+2018-01-23 21:27:12.4127|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (116ms) [Parameters=[@__productId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT `x.Materials`.`Id`, `x.Materials`.`Name`, `x.Materials`.`ProductId`
+FROM `MaterialEntitys` AS `x.Materials`
+INNER JOIN (
+    SELECT `x0`.`Id`
+    FROM `ProductEntitys` AS `x0`
+    WHERE `x0`.`Id` = @__productId_0
+    ORDER BY `x0`.`Id`
+    LIMIT 1
+) AS `t` ON `x.Materials`.`ProductId` = `t`.`Id`
+ORDER BY `t`.`Id`
+2018-01-23 21:27:27.2911|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-01-23 21:27:27.3168|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 20718.7292ms
+2018-01-23 21:27:27.3264|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20762.3222ms 200 application/json; charset=utf-8
+2018-01-23 21:29:46.9936|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM `ProductEntitys` AS `p`)
+    THEN TRUE ELSE FALSE
+END
+2018-01-23 21:29:47.3920|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/  
+2018-01-23 21:29:47.5297|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 164.3896ms 404 text/plain
+2018-01-23 21:30:01.2725|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/7  
+2018-01-23 21:30:01.3628|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'MyContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-01-23 21:30:01.3628|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:30:01.4049|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:30:01.4312|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2018-01-23 21:30:01.4573|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-01-23 21:30:01.5496|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments (7, False) - ModelState is Valid
+2018-01-23 21:30:03.8701|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[@__get_Item_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`Description`, `e`.`Name`, `e`.`Price`
+FROM `ProductEntitys` AS `e`
+WHERE `e`.`Id` = @__get_Item_0
+LIMIT 1
+2018-01-23 21:30:07.6254|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-01-23 21:30:07.6254|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 6283.3175ms
+2018-01-23 21:30:07.6483|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6370.679ms 404 text/plain
+2018-01-23 21:32:58.2389|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM `ProductEntitys` AS `p`)
+    THEN TRUE ELSE FALSE
+END
+2018-01-23 21:32:58.4229|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?', @p3='?' (Size = 200), @p4='?' (Size = 50), @p5='?', @p6='?' (Size = 200), @p7='?' (Size = 50), @p8='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO `ProductEntitys` (`Description`, `Name`, `Price`)
+VALUES (@p0, @p1, @p2);
+SELECT `Id`
+FROM `ProductEntitys`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+
+INSERT INTO `ProductEntitys` (`Description`, `Name`, `Price`)
+VALUES (@p3, @p4, @p5);
+SELECT `Id`
+FROM `ProductEntitys`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+
+INSERT INTO `ProductEntitys` (`Description`, `Name`, `Price`)
+VALUES (@p6, @p7, @p8);
+SELECT `Id`
+FROM `ProductEntitys`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2018-01-23 21:32:58.5792|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (119ms) [Parameters=[@p9='?' (Size = 50), @p10='?', @p11='?' (Size = 50), @p12='?', @p13='?' (Size = 50), @p14='?', @p15='?' (Size = 50), @p16='?', @p17='?' (Size = 50), @p18='?', @p19='?' (Size = 50), @p20='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO `MaterialEntitys` (`Name`, `ProductId`)
+VALUES (@p9, @p10);
+SELECT `Id`
+FROM `MaterialEntitys`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+
+INSERT INTO `MaterialEntitys` (`Name`, `ProductId`)
+VALUES (@p11, @p12);
+SELECT `Id`
+FROM `MaterialEntitys`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+
+INSERT INTO `MaterialEntitys` (`Name`, `ProductId`)
+VALUES (@p13, @p14);
+SELECT `Id`
+FROM `MaterialEntitys`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+
+INSERT INTO `MaterialEntitys` (`Name`, `ProductId`)
+VALUES (@p15, @p16);
+SELECT `Id`
+FROM `MaterialEntitys`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+
+INSERT INTO `MaterialEntitys` (`Name`, `ProductId`)
+VALUES (@p17, @p18);
+SELECT `Id`
+FROM `MaterialEntitys`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+
+INSERT INTO `MaterialEntitys` (`Name`, `ProductId`)
+VALUES (@p19, @p20);
+SELECT `Id`
+FROM `MaterialEntitys`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2018-01-23 21:33:00.8329|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/  
+2018-01-23 21:33:00.9840|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 177.3635ms 404 text/plain
+2018-01-23 21:33:43.3739|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58443/api/Product/6?includeMaterial=true  
+2018-01-23 21:33:43.4892|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'MyContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-01-23 21:33:43.5152|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:33:43.5588|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='TestDb2' AND TABLE_NAME='__EFMigrationsHistory';
+2018-01-23 21:33:43.5655|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2018-01-23 21:33:43.5910|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-01-23 21:33:43.6867|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi.Controllers.ProductController.GetProduct (WebApi) with arguments (6, True) - ModelState is Valid
+2018-01-23 21:33:45.8863|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__productId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT `x`.`Id`, `x`.`Description`, `x`.`Name`, `x`.`Price`
+FROM `ProductEntitys` AS `x`
+WHERE `x`.`Id` = @__productId_0
+ORDER BY `x`.`Id`
+LIMIT 1
+2018-01-23 21:33:45.9035|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__productId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT `x.Materials`.`Id`, `x.Materials`.`Name`, `x.Materials`.`ProductId`
+FROM `MaterialEntitys` AS `x.Materials`
+INNER JOIN (
+    SELECT `x0`.`Id`
+    FROM `ProductEntitys` AS `x0`
+    WHERE `x0`.`Id` = @__productId_0
+    ORDER BY `x0`.`Id`
+    LIMIT 1
+) AS `t` ON `x.Materials`.`ProductId` = `t`.`Id`
+ORDER BY `t`.`Id`
+2018-01-23 21:33:56.5739|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-01-23 21:33:58.3742|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi.Controllers.ProductController.GetProduct (WebApi) in 14924.0923ms
+2018-01-23 21:33:58.3894|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15017.659ms 200 application/json; charset=utf-8

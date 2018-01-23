@@ -10,6 +10,7 @@ namespace WebApi.Context
     public  class MyContext: DbContext
     {
         public DbSet<ProductEntity> ProductEntitys { get; set; }
+        public DbSet<MaterialEntity> MaterialEntitys { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseMySql(
@@ -26,6 +27,7 @@ namespace WebApi.Context
         {
             //简化配置 对应的每个ENTITy 都有自己的配置
             modelBuilder.ApplyConfiguration(new ProductConfiguration());
+            modelBuilder.ApplyConfiguration(new MaterialConfiguration());
             //modelBuilder.Entity<ProductEntity>().HasKey(x => x.Id);
             //modelBuilder.Entity<ProductEntity>().Property(x => x.Name).IsRequired().HasMaxLength(50);
             //modelBuilder.Entity<ProductEntity>().Property(x => x.Price).HasColumnType("decimal(8,2)");

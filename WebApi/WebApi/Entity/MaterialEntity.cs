@@ -5,14 +5,12 @@ using System.Threading.Tasks;
 
 namespace WebApi.Entity
 {
-    public class ProductEntity
+    public class MaterialEntity
     {
         public int Id { get; set; }
+        public int ProductId { get; set; }
         public string Name { get; set; }
-        public decimal Price { get; set; }
-
-        public string Description { get; set; }
-        public ICollection<MaterialEntity> Materials { get; set; }
+        public ProductEntity Product { get; set; }
 
     }
 }

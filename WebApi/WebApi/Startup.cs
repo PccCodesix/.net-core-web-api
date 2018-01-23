@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using NLog.Extensions.Logging;
 using WebApi.Context;
+using WebApi.Dto;
+using WebApi.Entity;
+using WebApi.Repositories;
 using WebApi.Services;
 
 namespace WebApi
@@ -54,6 +57,7 @@ namespace WebApi
             services.AddTransient<IMailService, CloudMailService>();
 #endif
             services.AddDbContext<MyContext>();
+            services.AddScoped<IProductRepository, ProductRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -76,6 +80,16 @@ namespace WebApi
             //});
             mycontext.EnsureSeedDataForContext();
             app.UseStatusCodePages();// status code middleware like  (http code)
+            AutoMapper.Mapper.Initialize(cfg =>
+            {
+                cfg.CreateMap<ProductEntity, ProductWithoutMaterialDto>();
+                cfg.CreateMap<ProductEntity, ProductDto>();
+                cfg.CreateMap<ProductEntity, MaterialDto>();
+                cfg.CreateMap<ProductModification, ProductEntity>();
+
+            });
+
+
             app.UseMvc();
 
         }

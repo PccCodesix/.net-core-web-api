@@ -10,7 +10,7 @@ namespace WebApi.Dto
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public float Price { get; set; }
+        public decimal Price { get; set; }
         public string Description { get; set; }
         public ICollection<Material> Materials { get; set; }
 
@@ -30,7 +30,7 @@ namespace WebApi.Dto
 
         [Display(Name = "价格")]
         [Range(0, Double.MaxValue, ErrorMessage = "{0}的值必须大于{1}")]
-        public float Price { get; set; }
+        public decimal Price { get; set; }
 
         [Display(Name = "描述")]
         [MaxLength(100, ErrorMessage = "{0}的长度不可以超过{1}")]
@@ -45,9 +45,38 @@ namespace WebApi.Dto
 
         [Display(Name = "价格")]
         [Range(0, Double.MaxValue, ErrorMessage = "{0}的值必须大于{1}")]
-        public float Price { get; set; }
+        public decimal Price { get; set; }
         [Display(Name = "描述")]
         [MaxLength(100, ErrorMessage = "{0}的长度不可以超过{1}")]
+        public string Description { get; set; }
+    }
+    public class MaterialDto
+
+    {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+    }
+    public class ProductDto
+    {
+        public ProductDto()
+        {
+            Materials = new List<MaterialDto>();
+        }
+
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+        public string Description { get; set; }
+        public ICollection<MaterialDto> Materials { get; set; }
+
+        public int MaterialCount => Materials.Count;
+    }
+    public class ProductWithoutMaterialDto
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
         public string Description { get; set; }
     }
 

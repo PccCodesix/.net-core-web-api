@@ -20,7 +20,7 @@ namespace WebApi.Services
                 {
                     Id = 1,
                     Name = "牛奶",
-                    Price = 2.5f,
+                    Price =new decimal( 2.5),
                     Materials =new List<Material>
                     {
                           new Material
@@ -40,7 +40,7 @@ namespace WebApi.Services
                 {
                     Id = 2,
                     Name = "面包",
-                    Price = 4.5f,
+                    Price =new decimal(  4.5),
                       Materials = new List<Material>
                     {
                         new Material
@@ -60,7 +60,7 @@ namespace WebApi.Services
                 {
                     Id = 3,
                     Name = "啤酒",
-                    Price = 7.5f,
+                    Price =new decimal(  7.5),
                      Materials = new List<Material>
                     {
                         new Material
