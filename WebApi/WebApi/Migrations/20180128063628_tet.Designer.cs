@@ -11,9 +11,10 @@ using WebApi.Context;
 namespace WebApi.Migrations
 {
     [DbContext(typeof(MyContext))]
-    partial class MyContextModelSnapshot : ModelSnapshot
+    [Migration("20180128063628_tet")]
+    partial class tet
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,7 +49,7 @@ namespace WebApi.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(50);
+                        .HasMaxLength(60);
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(8,2)");
